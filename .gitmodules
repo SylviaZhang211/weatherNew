@@ -1,0 +1,12 @@
+[submodule "library"]
+	path = library
+	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
+[submodule "library8"]
+	path = library8
+	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
+[submodule "security2"]
+	path = security2
+	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
+[submodule "security"]
+	path = security
+	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git

@@ -2,25 +2,38 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="details" />
         <module name="search" />
-        <module name="config" />
+        <module name="security" />
+        <module name="library" />
         <module name="discovery" />
+        <module name="details" />
+        <module name="config" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security (1)" target="1.8" />
+      <module name="security (2)" target="1.8" />
+      <module name="SpringSecurity" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringSecurity" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="details" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="library" options="-parameters" />
       <module name="search" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="security (1)" options="-parameters" />
+      <module name="security (2)" options="-parameters" />
     </option>
   </component>
 </project>
