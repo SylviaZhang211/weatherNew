@@ -1,6 +1,6 @@
 [submodule "library"]
 	path = library
-	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
+	url = https://github.com/SylviaZhang211/LibraryApplication-java8
 [submodule "library8"]
 	path = library8
 	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
