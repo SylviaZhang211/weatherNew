@@ -16,15 +16,4 @@ public class DetailsResponse {
         this.woeid = woeid;
     }
 
-    //    private String detailId;
-//    private String detailName;
-//    private int cityId; // cityId as part of the details response
-//    public DetailsResponse(){
-//
-//    }
-//    public DetailsResponse(String detailId, String detailName, int cityId) {
-//        this.detailId = detailId;
-//        this.detailName = detailName;
-//        this.cityId = cityId;
-//    }
 }

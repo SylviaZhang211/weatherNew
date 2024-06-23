@@ -10,5 +10,5 @@ public class LibraryResponse {
     private Long id;
     private String title;
     private List<Long> authorIds;
-    //private String type; // Book or Author
+
 }
