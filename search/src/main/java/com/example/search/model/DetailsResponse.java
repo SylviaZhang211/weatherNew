@@ -7,13 +7,13 @@ import java.util.List;
 
 @Data
 public class DetailsResponse {
-    private List<Integer> woied;
+    private List<Integer> woeid;
 
     public DetailsResponse() {
     }
 
-    public DetailsResponse(List<Integer> woied) {
-        this.woied = woied;
+    public DetailsResponse(List<Integer> woeid) {
+        this.woeid = woeid;
     }
 
     //    private String detailId;

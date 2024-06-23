@@ -28,7 +28,6 @@ public class SearchServiceImpl implements SearchService {
             String url = "http://library/api/books/" + searchQuery;
             return restTemplate.getForObject(url, LibraryResponse.class);
         });
-        //return new CompletableFuture<>();
     }
 
     @HystrixCommand(fallbackMethod = "defaultDetails")
