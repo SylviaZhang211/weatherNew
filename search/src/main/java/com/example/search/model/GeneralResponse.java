@@ -1,19 +1,14 @@
-package com.example.search.response;
+package com.example.search.model;
 
-import java.util.Map;
 
+import lombok.Data;
+
+@Data
 public class GeneralResponse {
     private String code;
     private long timestamp;
-    private Map<String, String> data;
+    private MergedResponse data;
 
-    // Constructor, getters, and setters
-
-    public GeneralResponse(String code, long timestamp, Map<String, String> data) {
-        this.code = code;
-        this.timestamp = timestamp;
-        this.data = data;
-    }
     public String getCode() {
         return code;
     }
@@ -30,11 +25,11 @@ public class GeneralResponse {
         this.timestamp = timestamp;
     }
 
-    public Map<String, String> getData() {
+    public MergedResponse getData() {
         return data;
     }
 
-    public void setData(Map<String, String> data) {
+    public void setData(MergedResponse data) {
         this.data = data;
     }
 }
