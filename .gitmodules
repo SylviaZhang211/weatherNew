@@ -4,3 +4,6 @@
 [submodule "security"]
 	path = security
 	url = https://github.com/SylviaZhang211/SpringSecurity-java8.git
+[submodule "university"]
+	path = university
+	url = https://github.com/SylviaZhang211/UniversityCountryAPI
