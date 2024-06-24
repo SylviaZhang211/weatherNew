@@ -11,6 +11,7 @@
         <module name="security" />
         <module name="library" />
         <module name="discovery" />
+        <module name="university" />
         <module name="details" />
         <module name="config" />
         <module name="gateway" />
@@ -20,11 +21,13 @@
       <module name="security (1)" target="1.8" />
       <module name="security (2)" target="1.8" />
       <module name="SpringSecurity" target="1.8" />
+      <module name="UniversityCountryAPI" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringSecurity" options="-parameters" />
+      <module name="UniversityCountryAPI" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="details" options="-parameters" />
       <module name="discovery" options="-parameters" />
@@ -34,6 +37,7 @@
       <module name="security" options="-parameters" />
       <module name="security (1)" options="-parameters" />
       <module name="security (2)" options="-parameters" />
+      <module name="university" options="-parameters" />
     </option>
   </component>
 </project>
